@@ -29,16 +29,3 @@ leave_one_out_mean <- function(x){
     return(mean(xx$dist))
   }
 }
-
-
-
-
-library(tidyverse)
-#x = distribution$dist
-distribution <- data.frame(dist = c(1, NA))
-mean(distribution$dist)
-sd(distribution$dist)
-sd(distribution$dist) / mean(distribution$dist)
-
-leave_one_out_mean(distribution$dist)
-
